@@ -1,0 +1,24 @@
+Create table student (
+    -> name varchar(50),
+    -> regno int PRIMARY KEY,
+    -> total int,
+    -> percentage int,
+    -> class int);
+
+-- Students from Class 8
+INSERT INTO student (name, regno, total, percentage, class) VALUES
+('Aarav Sharma', 1001, 480, 96, 8),
+('Diya Patel', 1002, 450, 90, 8),
+('Karan Mehta', 1003, 430, 86, 8);
+
+-- Students from Class 9
+INSERT INTO student (name, regno, total, percentage, class) VALUES
+('Sneha Rao', 2001, 470, 94, 9),
+('Ritik Verma', 2002, 420, 84, 9),
+('Isha Singh', 2003, 440, 88, 9);
+
+-- Students from Class 10
+INSERT INTO student (name, regno, total, percentage, class) VALUES
+('Rohan Das', 3001, 460, 92, 10),
+('Meera Nair', 3002, 480, 96, 10),
+('Yash Kapoor', 3003, 400, 80, 10);
