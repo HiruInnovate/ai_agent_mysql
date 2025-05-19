@@ -70,7 +70,7 @@ python main.py
 ### Run the Mysql AI agent
 
 ```commandline
-python main_sql_tools.py
+python main_with_sql_tools.py
 ```
 
 # About me
